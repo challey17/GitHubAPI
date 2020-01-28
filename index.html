@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GithubAPI</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Search Repos by User</h1>
+      <form action="">
+        <label for="username">user:</label>
+        <input type="text" />
+        <button id="search">search</button>
+        <button id="reset">reset search</button>
+      </form>
+      <section id="results" class="hidden">
+        <h2>results</h2>
+        <ul id="results-list"></ul>
+      </section>
+    </main>
+
+    <script src="index.js" async defer></script>
+  </body>
+</html>
