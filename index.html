@@ -14,16 +14,19 @@
       <h1>Search Repos by User</h1>
       <form action="">
         <label for="username">user:</label>
-        <input type="text" />
+        <input type="text" name="username" />
         <button id="search">search</button>
-        <button id="reset">reset search</button>
       </form>
       <section id="results" class="hidden">
-        <h2>results</h2>
+        <h2>Repos</h2>
         <ul id="results-list"></ul>
       </section>
     </main>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js" async defer></script>
   </body>
 </html>
